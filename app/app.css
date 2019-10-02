@@ -19,3 +19,68 @@ components that have the btn class name.
 .btn {
     font-size: 18;
 }
+
+/* * {
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    margin: 1px;
+    padding: 1px;
+} */
+
+page{
+    background-color: #DAD7CD;
+}
+
+button{
+/* Style selector */
+background-color: #6D6A75;
+color: white;
+border-style: solid;
+border-color: black;
+border-radius: 15px;
+border-width: 4px;
+padding: 4px;
+margin: 4px;
+}
+
+.title{
+/* Class selector */
+background-color: beige;
+border-style: solid;
+border-color: black;
+border-radius: 15px;
+border-width: 4px;
+font-size: 30;
+text-align: center;
+}
+
+.content{
+    padding: 12;
+}
+
+#submit{
+    /* ID selector */
+}
+
+stacklayout label{
+/* Hierachical selectors */
+/* Child */
+}
+
+stacklayout > label{
+/* Hierachical selectors */
+/* Direct child of stacklayout */
+}
+
+Textfield[hint]{
+    /* Attribute selector */
+}
+
+.grid{
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    border-width: 4px;
+    margin: 2;
+}
